@@ -10,7 +10,7 @@ pipeline {
         stage('Set Permissions') {
             steps {
                 // Grant execute permission to the Bash script
-                sh 'echo i like what i am doing'
+                sh 'echo he like what i am doing'
             }
         }
         stage('Run Bash Script') {
